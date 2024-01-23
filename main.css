@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: #d9e0b7;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  h1 {
+    color: #1a202c; /* Cor Pantone para texto mais escuro */
+    font-size: 2em; /* Tamanho da fonte em relação ao tamanho padrão */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do <h1> */
+    letter-spacing: 1px; /* Espaçamento entre as letras */
+  }
+  
+  
+  #app {
+    text-align: center;
+    background-color: #e0ddc3;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #nova-tarefa {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #d4c14a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    cursor: pointer;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    background-color: #d3ffd3;
+  }
+  
